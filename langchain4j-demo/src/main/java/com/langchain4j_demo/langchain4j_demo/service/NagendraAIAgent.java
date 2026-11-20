@@ -1,4 +1,4 @@
-package service;
+package com.langchain4j_demo.langchain4j_demo.service;
 
 import dev.langchain4j.service.spring.AiService;
 

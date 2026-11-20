@@ -23,6 +23,7 @@ server.port: 9292
 langchain4j:
   open-ai:
     chat-model:
-      api-key: """      model-name: gpt-4o-mini
+      api-key: "dummy--need to add credit in key of open AI ---sk-proj-4S50HnJ8KpXMA"
+      model-name: gpt-4o-mini
       log-requests: true
       log-responses: true

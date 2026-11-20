@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class Langchain4jDemoApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(Langchain4jDemoApplication.class, args);
+        SpringApplication.run(Langchain4jDemoApplication.class, args);
 	}
 
 }

@@ -1,9 +1,9 @@
-package tool;
+package com.langchain4j_demo.langchain4j_demo.tool;
 
 import dev.langchain4j.agent.tool.Tool;
-import model.OrderEntity;
+import com.langchain4j_demo.langchain4j_demo.model.OrderEntity;
 import org.springframework.stereotype.Service;
-import service.OrderService;
+import com.langchain4j_demo.langchain4j_demo.service.OrderService;
 
 @Service
 public class OrderTools {

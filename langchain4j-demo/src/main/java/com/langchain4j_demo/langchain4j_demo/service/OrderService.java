@@ -1,8 +1,8 @@
-package service;
+package com.langchain4j_demo.langchain4j_demo.service;
 
-import model.OrderEntity;
+import com.langchain4j_demo.langchain4j_demo.model.OrderEntity;
 import org.springframework.stereotype.Service;
-import repository.OrderRepository;
+import com.langchain4j_demo.langchain4j_demo.repository.OrderRepository;
 
 @Service
 public class OrderService {

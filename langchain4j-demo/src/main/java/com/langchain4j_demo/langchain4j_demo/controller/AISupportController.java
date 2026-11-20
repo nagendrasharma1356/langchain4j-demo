@@ -1,18 +1,18 @@
-package controller;
+package com.langchain4j_demo.langchain4j_demo.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-import service.NagendraAIAgent;
-import service.OrderSupportAIAgent;
+import com.langchain4j_demo.langchain4j_demo.service.NagendraAIAgent;
+import com.langchain4j_demo.langchain4j_demo.service.OrderSupportAIAgent;
 
 @RestController
-@RequestMapping("/api/ai-support")
+@RequestMapping("api/ai-support")
 public class AISupportController {
 
-    private NagendraAIAgent agent;
-    private OrderSupportAIAgent orderSupportAIAgent;
+    private  NagendraAIAgent agent;
+    private  OrderSupportAIAgent orderSupportAIAgent;
 
     public AISupportController(
             NagendraAIAgent agent,
